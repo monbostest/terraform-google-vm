@@ -1,5 +1,5 @@
 resource "google_compute_instance" "default" {
-  name         = "test2"
+  name         = "test2-module"
   machine_type = var.machine_type
   zone         = "us-central1-a"
 
